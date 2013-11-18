@@ -6,7 +6,7 @@ class fetch
 
     function __construct()
     {
-        $url = "http://blog.csdn.net/yuri_4_vera";
+        $this->url = "http://blog.csdn.net/yuri_4_vera";
     }
 
     public function get()
